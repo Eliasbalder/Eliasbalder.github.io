@@ -2,33 +2,100 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Superheroes</title>
-        <link rel="stylesheet" href="css/main.css">
 
         <style>
-            img
-            {
-                height: 100px;
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                background-color: #f4f4f4;
+                color: #333;
             }
-            td, th
-            {
-                border: 2px solid black;
-                padding: 15px;
-                
+
+            header, footer {
+                text-align: center;
+                padding: 10px;
+                color: white;
+                background-color: #4CAF50;
             }
-            table
-            {
+
+            header h2, footer {
+                margin: 0;
+            }
+
+            h1 {
+                text-align: center;
+                color: #333;
+                margin-top: 20px;
+            }
+
+            table {
+                margin: 20px auto;
+                width: 90%;
+                background-color: white;
                 border-collapse: collapse;
             }
-            th
-            {
-                background-color: white;
-                font-size: 15px;
+
+            th, td {
+                border: 2px solid black;
+                padding: 15px;
+                text-align: center;
+                width: 20%;
+            }
+
+            th {
+                background-color: #4CAF50;
+                color: white;
+                font-size: 18px;
+                text-transform: uppercase;
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2; 
+            }
+
+            tr: hover {
+                background-color: #cce5ff; 
+                cursor: pointer;
+            }
+
+            ul {
+                padding: 0;
+                margin: 0;
+                list-style-type: square;
+                text-align: left;
+            }
+
+            img {
+                height: 100px;
+                border-radius: 8px;
+                transition: transform 0.2s ease;
+            }
+
+            a img: hover {
+                transform: scale(1.2);
+            }
+
+            @media (max-width: 768px) {
+                table {
+                    width: 100%;
+                }
+
+                th, td {
+                    font-size: 12px;
+                }
+
+                img {
+                    height: 80px;
+                }
             }
         </style>
-
     </head>
     <body>
+        <header>
+            <h2>Welcome to the Superhero Database</h2>
+        </header>
         <h1>My Favorite Superheroes</h1>
         <table>
             <thead>
@@ -44,7 +111,7 @@
                 <tr>
                     <th>Batman</th>
                     <td>Bruce Wayne</td>
-                    <td><a href="images/BatmanARK.jpg"><img src="images/BatmanARK.jpg" alt="Image of The Goat"></a></td>
+                    <td><a href="images/BatmanARK.jpg"><img src="images/BatmanARK.jpg" alt="Image of Batman"></a></td>
                     <td>Being Rich</td>
                     <td>
                         <ul>
@@ -60,26 +127,28 @@
                     <td><a href="images/S.S_Spider-Man.jpg"><img src="images/S.S_Spider-Man.jpg" alt="Image of Spider-Man"></a></td>
                     <td>
                         <ul>
-                            <li>Able To Stick To Any Surface</li>
+                            <li>Able to Stick to Any Surface</li>
                             <li>Healing Factor</li>
                             <li>Warning Sense</li>
-                            <li>Organic Webs(Depending on the comic run)</li>
+                            <li>Organic Webs (Depending on the comic run)</li>
                             <li>Super Strength</li>
-                            <li>SuperHuman Agility</li>
+                            <li>Superhuman Agility</li>
                         </ul>
                     </td>
                     <td>
-                        <li>Comic Writers</li>
-                        <li>Idealism</li>
-                        <li>Love</li>
-                        <li>Small Knives</li>
+                        <ul>
+                            <li>Comic Writers</li>
+                            <li>Idealism</li>
+                            <li>Love</li>
+                            <li>Small Knives</li>
+                        </ul>
                     </td>
                 </tr>
-               <tr>
+                <tr>
                     <th>Doctor Strange</th>
                     <td>Dr. Stephen Strange</td>
                     <td><a href="images/DoctorStrange.jpg"><img src="images/DoctorStrange.jpg" alt="Image of Doctor Strange"></a></td>
-                    <td>Can Conjur Mystical Spells</td>
+                    <td>Can Conjure Mystical Spells</td>
                     <td>Human</td>
                 </tr>
             </tbody>
