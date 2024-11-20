@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
-  <head>
-    <title>Template</title>
-    <meta charset="UTF-8">
-  </head>
-  <body>
-    <h1>Title</h1>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Superheroes</title>
+        <link rel="stylesheet" href="css/main.css">
+
+        <style>
+            img
+            {
+                height: 100px;
+            }
+            td, th
+            {
+                border: 2px solid black;
+                padding: 15px;
+                
+            }
+            table
+            {
+                border-collapse: collapse;
+            }
+            th
+            {
+                background-color: white;
+                font-size: 15px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>My Favorite Superheroes</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Alias</th>
+                    <th>Image</th>
+                    <th>Superpowers</th>
+                    <th>Weaknesses</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Batman</th>
+                    <td>Bruce Wayne</td>
+                    <td><a href="images/BatmanARK.jpg"><img src="images/BatmanARK.jpg" alt="Image of The Goat"></a></td>
+                    <td>Being Rich</td>
+                    <td>
+                        <ul>
+                            <li>The Name Martha</li>
+                            <li>Human</li>
+                            <li>Comic Writers</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Spider-Man</th>
+                    <td>Peter Parker</td>
+                    <td><a href="images/S.S_Spider-Man.jpg"><img src="images/S.S_Spider-Man.jpg" alt="Image of Spider-Man"></a></td>
+                    <td>
+                        <ul>
+                            <li>Able To Stick To Any Surface</li>
+                            <li>Healing Factor</li>
+                            <li>Warning Sense</li>
+                            <li>Organic Webs(Depending on the comic run)</li>
+                            <li>Super Strength</li>
+                            <li>SuperHuman Agility</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <li>Comic Writers</li>
+                        <li>Idealism</li>
+                        <li>Love</li>
+                        <li>Small Knives</li>
+                    </td>
+                </tr>
+               <tr>
+                    <th>Doctor Strange</th>
+                    <td>Dr. Stephen Strange</td>
+                    <td><a href="images/DoctorStrange.jpg"><img src="images/DoctorStrange.jpg" alt="Image of Doctor Strange"></a></td>
+                    <td>Can Conjur Mystical Spells</td>
+                    <td>Human</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
 </html>
