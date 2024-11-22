@@ -1,9 +1,15 @@
-:root 
-{
+:root {
+    background-color: #808080;
 
+    h1 {
+        font-size: 40px;
+        font-style: italic; 
+        font-weight: normal;
+    }
 
-    
-      
-  
+    img {
+        object-fit: cover;
+    }
 }
+
 
