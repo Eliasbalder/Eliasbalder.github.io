@@ -8,8 +8,8 @@
     }
     #myself-image {
         width: auto;
-        height: 300px;
-        border: 3px dashed green;
+        height: auto;
+        border: 8px dashed green; 
     }
 }
 
