@@ -2,20 +2,34 @@
     --background-color: #808080;  
 }
 
+/* for all */ 
 body {
     background-color: var(--background-color);  
 }
-
-h1 {
-    font-size: 40px;
+h1, h2, p {
     font-style: italic;
     font-weight: normal;
 }
 
+/* for profile page */
 #myself-image {
     width: 400px;
     height: 300px;
     border: 4px solid green;  
+}
+
+/* for amuse page */
+#amuse-page h1 {
+    font-size: 60px;
+    color: #093145;
+}
+#amuse-page p {
+    font-size: 35px;
+}
+
+/* for index page */
+#index-page ul li {
+    text-align: center;
 }
 
 
