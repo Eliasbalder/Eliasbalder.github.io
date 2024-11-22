@@ -6,14 +6,10 @@
         font-style: italic; 
         font-weight: normal;
     }
-    img {
-        object-fit: cover;
-    }
-    
     #myself-image {
-        width: 300px;
+        width: auto;
         height: 300px;
-        border: 3px solid green;
+        border: 3px dashed green;
     }
 }
 
