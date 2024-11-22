@@ -13,7 +13,7 @@ h1 {
 }
 
 #myself-image {
-    width: 350px;
+    width: auto;
     height: 300px;
     border: 4px solid green;  
 }
